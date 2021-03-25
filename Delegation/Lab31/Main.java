@@ -17,7 +17,7 @@ public class Main {
 		Position salesB = new Position("Sales B", departmentB);
 		Position managerB = new Position("Management B", departmentB);
 
-		Employee emp1 = new Employee("Joshep", 12000, managerA);
+		Employee emp1 = new Employee("Joshep", 12000, managerB);
 		Employee emp2 = new Employee("Jorge", 9000, managerA);
 		Employee emp3 = new Employee("Maria", 8000, salesA);
 
@@ -32,7 +32,7 @@ public class Main {
 		departmentB.addPosition(salesB);
 		departmentB.addPosition(managerB);
 
-		managerA.addEmployee(emp1);
+		managerB.addEmployee(emp1);
 		managerA.addEmployee(emp2);
 		salesA.addEmployee(emp3);
 
